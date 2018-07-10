@@ -58,13 +58,15 @@
 .sidebar {
 	text-align: center;
 	height: 250px;
-	margin: 30px;
+	/*margin: 30px;*/
 	background-color: white;
 	border-radius: 5px;
 
 }
 .sidebar-container {
 	margin-left: 15px;
+	height: 310px;
+	justify-content: center;
 }
 .sidebar span {
 
@@ -86,7 +88,7 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 991px) {
 	.brand, .global-now{
 		margin-left: 0px;
 		margin-right: 0px;
@@ -100,13 +102,19 @@
 	.article-feature span{
 		line-height: 160px;
 	}
+	.sidebar-container {
+		height: 100px;
+		margin-left: 0px;
+		
+	}
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 	.tools {
 		margin-right: 0;
 	}
+
 }
 
 /* Extra Small Devices, Phones */
